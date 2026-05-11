@@ -68,7 +68,7 @@ export default function Header({ data = staticData }: { data?: any }) {
         <div className="flex justify-between items-center transition-all duration-500">
           
           {/* 1. LOGO - Lien vers la home de la langue actuelle */}
-          <Link href={`/${currentLang}`} className="relative w-25 lg:w-32 h-12 transition-transform duration-300">
+          <Link href={`/${currentLang}`} className="relative w-[80px] lg:w-[80px] h-[62px] transition-transform duration-300">
             {activeLogo?.url && (
               <Image 
                 src={activeLogo.url} 

@@ -29,8 +29,8 @@ export default function VideoSection() {
         muted
         playsInline
       >
-        <source src="/media/studio_virtuose.webm" type="video/webm" />
-        <source src="/media/studio_virtuose.mp4" type="video/mp4" />
+        <source src="/media/hero.webm" type="video/webm" />
+        <source src="/media/hero.mp4" type="video/mp4" />
       </video>
       <div className="absolute inset-0 flex items-center justify-center">
         <button 

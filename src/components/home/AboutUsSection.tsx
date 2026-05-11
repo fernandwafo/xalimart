@@ -60,7 +60,7 @@ export default function AboutUsSection() {
           {/* Image Principale (Immeuble) */}
           <div className="relative z-10 overflow-hidden sm:w-[562px] sm:h-[469px] sm:mb-[100px]">
             <img 
-              src="/media/about-building.jpg" 
+              src="/media/about-construction.jpg" 
               alt="Architecture Xalimart" 
               className="w-full h-full object-cover"
             />
@@ -69,14 +69,14 @@ export default function AboutUsSection() {
           {/* Image Secondaire (Chantier) - Chevauchement en bas à gauche */}
           <div className="sm:absolute bottom-0 left-0 z-20 overflow-hidden sm:border-4 border-white sm:w-[347px] sm:h-[316px]">
             <img 
-              src="/media/about-construction.jpg"
+              src="/media/about-building.jpg"
               alt="Chantier en cours" 
-              className="w-full aspect-square object-cover"
+              className="h-full w-full aspect-square object-cover object-bottom"
             />
           </div>
 
           {/* Badge Expérience - Noir en bas à droite */}
-          <div className="sm:absolute bottom-0 right-0 z-30 bg-black text-white py-3 px-6 flex items-center gap-5 min-w-[200px]">
+          <div className="sm:absolute bottom-0 right-0 z-30 bg-black text-white py-3 px-4 flex items-center gap-5 min-w-[200px]">
             <span className="text-[40px] font-normal countnumber"><CounterNumber value={10}/>+</span>
             <div className="text-[18px] uppercase tracking-tighter leading-[28px] font-light">
               Années <br /> d'expériences

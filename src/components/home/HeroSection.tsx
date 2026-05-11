@@ -13,8 +13,8 @@ export default function HeroSection() {
         poster="/media/hero-pc.jpg"
         className="absolute top-0 left-0 w-full h-full object-cover"
       >
-        <source src="/media/hero.webm" type="video/webm" />
-        <source src="/media/hero.mp4" type="video/mp4" />
+        <source src="/media/studio_virtuose.webm" type="video/webm" />
+        <source src="/media/studio_virtuose.mp4" type="video/mp4" />
         
       </video>
       <div className="portfolio-link absolute bottom-[64px] left-0 right-0">
