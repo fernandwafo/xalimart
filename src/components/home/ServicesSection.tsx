@@ -38,7 +38,7 @@ export default function ServicesSection() {
             <div className="text-black text-[14px] font-light leading-relaxed flex-grow">
               Conception architecturale de bâtiments résidentiels, commerciaux et institutionnels avec une vision durable et innovante.
             </div>
-            <button className="mt-4 text-[16px] font-medium inline-flex items-center gap-2 group-hover:gap-4 transition-all duration-300 font-medium cursor-default">
+            <button className="mt-4 text-[16px] font-semibold inline-flex items-center gap-2 group-hover:gap-4 transition-all duration-300 font-medium cursor-default">
               Explorer 
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path fillRule="evenodd" clipRule="evenodd" d="M13.47 5.47007C13.6106 5.32962 13.8012 5.25073 14 5.25073C14.1988 5.25073 14.3894 5.32962 14.53 5.47007L20.53 11.4701C20.6705 11.6107 20.7493 11.8013 20.7493 12.0001C20.7493 12.1988 20.6705 12.3894 20.53 12.5301L14.53 18.5301C14.4613 18.6038 14.3785 18.6629 14.2865 18.7039C14.1945 18.7448 14.0952 18.7669 13.9945 18.7687C13.8938 18.7704 13.7938 18.7519 13.7004 18.7142C13.607 18.6765 13.5222 18.6203 13.451 18.5491C13.3797 18.4779 13.3236 18.3931 13.2859 18.2997C13.2482 18.2063 13.2296 18.1063 13.2314 18.0056C13.2332 17.9048 13.2552 17.8055 13.2962 17.7135C13.3372 17.6215 13.3963 17.5387 13.47 17.4701L18.19 12.7501H4C3.80109 12.7501 3.61032 12.6711 3.46967 12.5304C3.32902 12.3898 3.25 12.199 3.25 12.0001C3.25 11.8012 3.32902 11.6104 3.46967 11.4697C3.61032 11.3291 3.80109 11.2501 4 11.2501H18.19L13.47 6.53007C13.3295 6.38945 13.2507 6.19882 13.2507 6.00007C13.2507 5.80132 13.3295 5.6107 13.47 5.47007Z" fill="black"/>
@@ -57,7 +57,7 @@ export default function ServicesSection() {
             <div className="text-black text-[14px] font-light leading-relaxed flex-grow">
               Création d'espaces intérieurs qui marient esthétique contemporaine, fonctionnalité et identité culturelle africaine.
             </div>
-            <button className="mt-4 text-[16px] font-medium inline-flex items-center gap-2 group-hover:gap-4 transition-all duration-300 font-medium cursor-default">
+            <button className="mt-4 text-[16px] font-semibold inline-flex items-center gap-2 group-hover:gap-4 transition-all duration-300 font-medium cursor-default">
               Explorer 
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path fillRule="evenodd" clipRule="evenodd" d="M13.47 5.47007C13.6106 5.32962 13.8012 5.25073 14 5.25073C14.1988 5.25073 14.3894 5.32962 14.53 5.47007L20.53 11.4701C20.6705 11.6107 20.7493 11.8013 20.7493 12.0001C20.7493 12.1988 20.6705 12.3894 20.53 12.5301L14.53 18.5301C14.4613 18.6038 14.3785 18.6629 14.2865 18.7039C14.1945 18.7448 14.0952 18.7669 13.9945 18.7687C13.8938 18.7704 13.7938 18.7519 13.7004 18.7142C13.607 18.6765 13.5222 18.6203 13.451 18.5491C13.3797 18.4779 13.3236 18.3931 13.2859 18.2997C13.2482 18.2063 13.2296 18.1063 13.2314 18.0056C13.2332 17.9048 13.2552 17.8055 13.2962 17.7135C13.3372 17.6215 13.3963 17.5387 13.47 17.4701L18.19 12.7501H4C3.80109 12.7501 3.61032 12.6711 3.46967 12.5304C3.32902 12.3898 3.25 12.199 3.25 12.0001C3.25 11.8012 3.32902 11.6104 3.46967 11.4697C3.61032 11.3291 3.80109 11.2501 4 11.2501H18.19L13.47 6.53007C13.3295 6.38945 13.2507 6.19882 13.2507 6.00007C13.2507 5.80132 13.3295 5.6107 13.47 5.47007Z" fill="black"/>
@@ -83,7 +83,7 @@ export default function ServicesSection() {
             <div className="text-black text-[14px] font-light leading-relaxed flex-grow">
               Accompagnement dans l'acquisition, la valorisation et la gestion de biens immobiliers résidentiels et commerciaux.
             </div>
-            <button className="mt-4 text-[16px] font-medium inline-flex items-center gap-2 group-hover:gap-4 transition-all duration-300 font-medium cursor-default">
+            <button className="mt-4 text-[16px] font-semibold inline-flex items-center gap-2 group-hover:gap-4 transition-all duration-300 font-medium cursor-default">
               Explorer 
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path fillRule="evenodd" clipRule="evenodd" d="M13.47 5.47007C13.6106 5.32962 13.8012 5.25073 14 5.25073C14.1988 5.25073 14.3894 5.32962 14.53 5.47007L20.53 11.4701C20.6705 11.6107 20.7493 11.8013 20.7493 12.0001C20.7493 12.1988 20.6705 12.3894 20.53 12.5301L14.53 18.5301C14.4613 18.6038 14.3785 18.6629 14.2865 18.7039C14.1945 18.7448 14.0952 18.7669 13.9945 18.7687C13.8938 18.7704 13.7938 18.7519 13.7004 18.7142C13.607 18.6765 13.5222 18.6203 13.451 18.5491C13.3797 18.4779 13.3236 18.3931 13.2859 18.2997C13.2482 18.2063 13.2296 18.1063 13.2314 18.0056C13.2332 17.9048 13.2552 17.8055 13.2962 17.7135C13.3372 17.6215 13.3963 17.5387 13.47 17.4701L18.19 12.7501H4C3.80109 12.7501 3.61032 12.6711 3.46967 12.5304C3.32902 12.3898 3.25 12.199 3.25 12.0001C3.25 11.8012 3.32902 11.6104 3.46967 11.4697C3.61032 11.3291 3.80109 11.2501 4 11.2501H18.19L13.47 6.53007C13.3295 6.38945 13.2507 6.19882 13.2507 6.00007C13.2507 5.80132 13.3295 5.6107 13.47 5.47007Z" fill="black"/>
@@ -105,7 +105,7 @@ export default function ServicesSection() {
             <div className="text-black text-[14px] font-light leading-relaxed flex-grow">
               Planification et conception de quartiers, zones d'activités et espaces publics à l'échelle de la ville.
             </div>
-            <button className="mt-4 text-[16px] font-medium inline-flex items-center gap-2 group-hover:gap-4 transition-all duration-300 font-medium cursor-default">
+            <button className="mt-4 text-[16px] font-semibold inline-flex items-center gap-2 group-hover:gap-4 transition-all duration-300 font-medium cursor-default">
               Explorer 
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path fillRule="evenodd" clipRule="evenodd" d="M13.47 5.47007C13.6106 5.32962 13.8012 5.25073 14 5.25073C14.1988 5.25073 14.3894 5.32962 14.53 5.47007L20.53 11.4701C20.6705 11.6107 20.7493 11.8013 20.7493 12.0001C20.7493 12.1988 20.6705 12.3894 20.53 12.5301L14.53 18.5301C14.4613 18.6038 14.3785 18.6629 14.2865 18.7039C14.1945 18.7448 14.0952 18.7669 13.9945 18.7687C13.8938 18.7704 13.7938 18.7519 13.7004 18.7142C13.607 18.6765 13.5222 18.6203 13.451 18.5491C13.3797 18.4779 13.3236 18.3931 13.2859 18.2997C13.2482 18.2063 13.2296 18.1063 13.2314 18.0056C13.2332 17.9048 13.2552 17.8055 13.2962 17.7135C13.3372 17.6215 13.3963 17.5387 13.47 17.4701L18.19 12.7501H4C3.80109 12.7501 3.61032 12.6711 3.46967 12.5304C3.32902 12.3898 3.25 12.199 3.25 12.0001C3.25 11.8012 3.32902 11.6104 3.46967 11.4697C3.61032 11.3291 3.80109 11.2501 4 11.2501H18.19L13.47 6.53007C13.3295 6.38945 13.2507 6.19882 13.2507 6.00007C13.2507 5.80132 13.3295 5.6107 13.47 5.47007Z" fill="black"/>

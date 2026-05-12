@@ -4,10 +4,10 @@ import CounterNumber from '@/components/CounterNumber'
 export default function AboutUsSection() {
   return (
     <section className="aboutus-section home-section bg-white py-30">
-      <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+      <div className="container mx-auto flex flex-wrap lg:flex-nowrap gap-16 items-center">
         
         {/* --- COLONNE GAUCHE : TEXTE --- */}
-        <div className="flex flex-col space-y-8">
+        <div className="column-texte space-y-8 w-1/1 lg:w-[45%]">
           {/* Petit label avec ligne */}
           <div className="flex items-center gap-4">
             <span className="w-10 h-[1px] bg-[#c6c6c6]"></span>
@@ -15,12 +15,12 @@ export default function AboutUsSection() {
           </div>
 
           {/* Titre principal */}
-          <h2 className="text-black text-[32px] md:text-[35px] lg:text-[40px] font-bold uppercase leading-tight">
+          <h2 className="text-black text-[32px] md:text-[35px] lg:text-[40px] font-bold uppercase">
             Batir l'afrique de <br /> demain
           </h2>
 
           {/* Paragraphes */}
-          <div className="space-y-6 text-black text-[16px] leading-relaxed max-w-lg">
+          <div className="space-y-6 text-black text-[16px] leading-relaxed lg:max-w-lg">
             <p>
               Xalimart Group est un groupe pluridisciplinaire basé à Dakar, spécialisé dans la transformation des environnements urbains africains. Notre approche fusionne l'héritage architectural local avec les standards internationaux contemporains.
             </p>
@@ -56,32 +56,35 @@ export default function AboutUsSection() {
         </div>
 
         {/* --- COLONNE DROITE : COMPOSITION D'IMAGES --- */}
-        <div className="relative flex flex-wrap gap-4 sm:gap-0 sm:justify-end sm:pl-[20px] md:pl-[80px]">
-          {/* Image Principale (Immeuble) */}
-          <div className="relative z-10 overflow-hidden sm:w-[562px] sm:h-[469px] sm:mb-[100px]">
-            <img 
-              src="/media/about-construction.jpg" 
-              alt="Architecture Xalimart" 
-              className="w-full h-full object-cover"
-            />
-          </div>
+        <div className="relative flex flex-wrap sm:justify-end items-end w-1/1 lg:w-[55%]">
 
           {/* Image Secondaire (Chantier) - Chevauchement en bas à gauche */}
-          <div className="sm:absolute bottom-0 left-0 z-20 overflow-hidden sm:border-4 border-white sm:w-[347px] sm:h-[316px]">
+          <div className="left-column overflow-hidden border-4 border-white w-full sm:w-1/2 pb-2 sm:pb-0 sm:pr-2">
             <img 
-              src="/media/about-building.jpg"
+              src="/media/about-construction.jpg"
               alt="Chantier en cours" 
-              className="h-full w-full aspect-square object-cover object-bottom"
+              className="h-full w-full object-cover object-bottom"
             />
           </div>
 
-          {/* Badge Expérience - Noir en bas à droite */}
-          <div className="sm:absolute bottom-0 right-0 z-30 bg-black text-white py-3 px-4 flex items-center gap-5 min-w-[200px]">
-            <span className="text-[40px] font-normal countnumber"><CounterNumber value={10}/>+</span>
-            <div className="text-[18px] uppercase tracking-tighter leading-[28px] font-light">
-              Années <br /> d'expériences
+          {/* Image Principale (Immeuble) */}
+          <div className="right-column relative z-10 overflow-hidden pt-2 sm:pt-0 sm:pl-2 w-full sm:w-1/2 sm:text-right">
+            <div className="relative z-10 overflow-hidden">
+              <img 
+                src="/media/about-building.jpg" 
+                alt="Architecture Xalimart" 
+                className="w-full h-full object-cover"
+              />
+            </div>
+            {/* Badge Expérience - Noir en bas à droite */}
+            <div className="z-30 bg-black text-white py-3 px-5 inline-flex items-center gap-5 min-w-[252px] mt-4">
+              <span className="text-[40px] font-normal countnumber"><CounterNumber value={10}/>+</span>
+              <div className="text-[18px] uppercase text-left leading-[28px] font-light">
+                Années <br /> d'expériences
+              </div>
             </div>
           </div>
+
         </div>
 
       </div>
