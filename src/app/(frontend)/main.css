@@ -156,7 +156,7 @@ form .checkboxes label input:checked + span:after{
 .page-contact .footer-contact .sup-title{
   display: none;
 }
-.page-contact .contact-maps,
+/*.page-contact .contact-maps,*/
 .page-contact .footer-contact .contact-title{
   display: block;
 }

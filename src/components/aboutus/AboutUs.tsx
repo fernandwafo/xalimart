@@ -6,9 +6,9 @@ export default function AboutUs() {
             <div className="container mx-auto flex flex-col lg:flex-row items-center gap-16 lg:gap-24">
                 
                 {/* --- PARTIE GAUCHE : COMPOSITION D'IMAGES ASYMÉTRIQUE --- */}
-                <div className="w-full lg:w-1/2 flex items-start gap-4 md:gap-8">
+                <div className="w-full lg:w-1/2 flex flex-wrap sm:flex-nowrap items-start gap-4 md:gap-8">
                     {/* Image 1 : Plus haute et décalée vers le haut */}
-                    <div className="w-1/2">
+                    <div className="w-1/1 sm:w-1/2">
                         <div className="aspect-[3/4] w-full overflow-hidden">
                         <img 
                             src="/media/aboutus/about1.jpg" 
@@ -19,7 +19,7 @@ export default function AboutUs() {
                     </div>
                     
                     {/* Image 2 : Décalée vers le bas */}
-                    <div className="w-1/2 pt-30">
+                    <div className="w-1/1 sm:w-1/2 pt-0 sm:pt-20 md:pt-30">
                         <div className="aspect-[3/4] w-full overflow-hidden">
                         <img 
                             src="/media/aboutus/about2.jpg" 
